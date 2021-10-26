@@ -1,0 +1,75 @@
+
+body{
+    background-color: whitesmoke;
+}
+img{
+    width: 100%;
+    height: 80px;
+}
+.mid{
+    font-family: Verdana;
+}
+.btn{
+    background-color: grey;
+}
+#btn1{
+    margin: 12px;
+}
+#btn2{
+    margin-left: 14px;
+}
+#head{
+    margin-left: 88px;
+}
+.space{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#btn3{
+    background-color: grey;
+    margin-left: 25px;
+}
+.main{
+    margin-left: 15%;
+}
+.radio{
+    margin-left: 185px;
+}
+#first{
+    margin-right: 15px;
+}    
+#second{
+    margin-left: 15px;
+}    
+#second3{
+    margin-left: 55px;
+}
+#third{
+    margin-left: 15px;
+}    
+#fourth{
+    margin-left: 15px;
+}    
+#second2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#first1{
+    margin-top: 5px;
+}
+footer{
+    background-color: black;
+
+}
+.foot{
+    color:white;
+    margin: 25px;
+    padding: 25px;
+}
+#btn4{
+margin-left: 150px;
+padding: 08px;
+}
+#btn5{
+padding: 08px;
+}
