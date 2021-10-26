@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Card</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<form name="frm" action="success.js">
+<body>
+    <div class="container">
+        <header>
+            <br>
+            <img src="images/heading.PNG">
+        </header><br>
+        <section>
+            <h4 class="mid">Electrol Registration Officers,</h4><br>
+            <div class="main">
+            <table>
+                <tr>
+                    <td><h5 id="head2">State </h5></td>
+                    <td><select class="btn" id="btn1">
+                        <option value="Select">Select</option>
+                        <option value="Maha">Maharashtra</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="UP">Utter Pradesh</option>
+                    </select>
+                </td>
+                    <td><h5 id="head">District </h5></td>
+                    <td><select class="btn" id="btn2">
+                        <option value="Select">Select</option>
+                        <option value="Amravati">Amravati</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Washim">Washim</option>
+                    </select>
+                </td>
+                </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <td><h5>Legislative Assembly / Parlimentary </h5></td>
+                <td>
+                <select class="btn" id="btn3">
+                <option value="Select" class="form-control">Select</option>
+                </select>
+                </td>
+            </tr>
+            <td><h5 class="space">Constituency</h5><br>
+            </table> 
+            </div>   
+            <h4 class="mid">I request that my name be included in electrol rolls for all the aforesaid areas.</h4>
+            <br>
+            <div class="radio">
+                <table>
+                    <tr>
+                        <td>
+                                <input type="radio" name="gen" value="First">   <b>First time voter </b><br>
+                                <input type="radio" name="gen" value="Change">   <b>Due to transfer from other meeting areas</b>
+                        </td>
+                    </tr>
+                </table>
+            </div><br>
+            <h5>(T) Disability (if any)</h5><br>
+            <table >
+                <tr>
+                    <td><input type="checkbox" id="first">   <b>Visual Impairment</b>   </td>
+                    <td><input type="checkbox" id="second">   <b>Speech and hearing Impairment</b></td>
+                    <td><input type="checkbox" id="third">   <b>Motion disabling</b></td>
+                    <td><input type="checkbox" id="fourth">   <b>Other</b></td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+            </table><br>
+           <table>
+            <tr>
+                <td><b>(Th) Email ID (optional)</b></td>
+                <td><input type="text" id="second" class="form-control">
+            </tr>
+            <tr>
+                <td><b>(D) mobile number (optional) +91</b></td>
+                <td><input type="text" id="second2" class="form-control">
+            </tr>
+           </table>
+           <table id="second3">
+               <tr>
+                   <td><b>Your Photo</b></td><br>
+               </tr>
+               <tr>
+                <td><input type="file" class="form-control" id="first1"></td>
+               </tr>
+
+            </table>
+            
+            <Table id="second3">
+               <tr>
+                   <td><b>Age Proof</b></td><br>
+               </tr>
+               <tr>
+                <td><input type="file" class="form-control" id="first1"></td>
+                <td><b>Document type</b></td>
+                <td>
+                    <select id="btn3" class="form-control" id="second">
+                    <option value="select">Select</option>
+                </select>
+                </td> 
+                </tr>
+            </Table>
+            
+           <table id="second3">
+               <tr>
+                   <td><b>Address Proof</b></td><br>
+               </tr>
+               <tr>
+                   <td><input type="file" class="form-control" id="first1"></td>
+                   <td id="fourth"><b>Address Proof</b></td>
+                   <td>
+                       <select id="btn3" class="form-control">
+                           <option value="select">Select </option>
+                       </select>
+                   </td>
+               </tr>
+           </table>
+           <br><br>
+           <div class="descrip">Declaration</div><br><br> I declare I declare that according to my best knowledge and belief <br> I am a citizen of India and of my birth; <br><span style="margin-left:100px"></span>City / Village:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"
+            name="" id="" required><br><span style="margin-left:100px"></span><br><span style="margin-left:100px"></span>Select state
+          <sup style="color:rgb(255, 8, 8)"> * </sup><select class="btn btn-secondary btn-sm dropdown-toggle" name="" id=""><option>Select</option></select>&nbsp;&nbsp;&nbsp;&nbsp; District
+          <sup style="color:rgb(255, 8, 8)"> * </sup>&nbsp;&nbsp;&nbsp;&nbsp;<select class="btn btn-secondary btn-sm dropdown-toggle" name="" id=""><option>Select</option></select><br><br><span style="margin-left:100px"></span>Date
+          <sup style="color:rgb(255, 8, 8);"> *   </sup><input type="date" name="" id=""><br> (ii) I am a nominally resident in the address given in the above (date, month, year) above;
+          <br><br> I have not applied to include my name in the electoral roll for any other constituency;<br><br>
+          <ul class="radio">
+            <li><span style="margin-left:100px"></span><input type="radio" name="select" id="">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</li><br> <span style="margin-left:100px"></span>
+            <xml
+              style="font-size:18px">Or</xml> <br><br>
+              <li><span style="margin-left:100px"></span><input type="radio" name="select" id="">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then
+                I request that it be removed from that electoral roll. Go.</li>
+          </ul><br>
+          <hr><br><br><span style="margin-left:100px"></span>Location
+          <sup style="color:rgb(255, 8, 8)"> * </sup>&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date <input type="date" name="" id=""><br><br> I am afraid that the statement or declaration,
+          which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31 <br><br><span style="margin-left:100px"></span>Captcha <img src="images/captcha.png"
+            alt="" style="width: 150px;">&nbsp;
+          <i class="fas fa-redo"></i> &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" required><br><br>
+
+          </fieldset><span style="margin-left:100px"></span><span style="margin-left:100px"></span><span style="margin-left:100px"></span><span style="margin-left:100px"></span><span style="margin-left:100px"></span>
+          <input type="reset" class="btn btn-success" value="Reset" style="margin-bottom:10px !important; font-weight: bold;"><input type="submit" style="margin-bottom:10px !important; margin-left:8px; font-weight: bold;" class="btn btn-success" value="Submit">
+      </form>
+    </div>
+        </section>
+
+        <footer>
+            <h4 class="foot">Copyright &copy;2018 Suven Consultants and Technology Pvt Ltd</h4>
+            <h4 class="foot">Developed By Adarsh Sharma</h4>
+        </footer>
+    </div>
+</body>
+</form>
+</html>
